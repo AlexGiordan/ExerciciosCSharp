@@ -16,5 +16,13 @@ namespace ExerciciosCSharp
         {
             InitializeComponent();
         }
+
+        private void exerciciosComInteiros1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InteirosQuetao1 NovoFormulario = new InteirosQuetao1();
+            NovoFormulario.MdiParent = this;
+            NovoFormulario.Show();
+
+        }
     }
 }
